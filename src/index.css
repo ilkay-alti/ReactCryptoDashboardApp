@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.flexbox {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  padding: 15px;
+  overflow: auto;
+  height: 100%;
+}
+/* width */
+.visible-scrollbar,
+.invisible-scrollbar,
+.mostly-customized-scrollbar {
+  display: block;
+  width: 10em;
+  overflow: auto;
+  height: 2em;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6a008a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5e50f9;
+}
+
+.card {
+  padding: 15px;
+  background-color: #191919;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.board .card h5 {
+  font-size: 0px;
+}
+.board .card h1 {
+  font-size: 0px;
+}
+.board .card h2 {
+  text-align: center;
+}
+
+.board2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #191919;
+  padding: 15px;
+  overflow: auto;
+}
+img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.flexbox .board2 .card {
+  padding: 15px;
+  background-color: #1e1e1e;
+  cursor: pointer;
+  margin: 15px;
+  text-align: center;
+}
+.flexbox .board2 .card h2 {
+  font-size: 0px;
+}
+.card-top {
+  display: flex;
+  justify-content: center;
+}
+.card-info {
+  margin-top: 25px;
+  justify-content: space-evenly;
+}
+
+h5 {
+  margin-top: 5px;
+}
+.infoCard {
+  display: flex;
+  justify-content: space-evenly;
+}
+.infoCard div {
+  width: 25%;
+}
+.searchCoin {
+  display: flex;
+}
+input {
+  width: 100%;
+  height: 50px;
+}
+.coin-percent {
+  width: 100px;
+}
+.red {
+  color: #ee4758;
+}
+.green {
+  color: #51ef98;
+}
